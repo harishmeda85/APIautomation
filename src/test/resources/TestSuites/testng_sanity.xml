@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="RS_sanity Test Suite" verbose="1" >
+
+	<test name="RS_Sanity Test" >
+		<listeners>
+			<listener class-name="com.nic.rs.qa.ExtentReportListener.ExtentReportListener"/>
+		</listeners>
+		<classes>
+			<class name="com.nic.rs.qa.tests.HomePageTest"></class> 
+			<!-- <class name="com.nic.rs.qa.tests.SRPPageTest"/> -->
+			
+		</classes>
+			
+			
+	</test>
+</suite>

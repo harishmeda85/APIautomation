@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RealtyStore Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.DC.API.base.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="DC API automation Tests(failed)">
+    <classes>
+      <class name="com.DC.API.Tests.CreateUserTest">
+        <methods>
+          <include name="getNewUser"/>
+          <include name="createNewUser"/>
+          <include name="deleteUser"/>
+          <include name="updateUser"/>
+        </methods>
+      </class> <!-- com.DC.API.Tests.CreateUserTest -->
+    </classes>
+  </test> <!-- DC API automation Tests(failed) -->
+</suite> <!-- Failed suite [RealtyStore Test Suite] -->

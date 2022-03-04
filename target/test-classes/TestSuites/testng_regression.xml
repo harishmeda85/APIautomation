@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="RealtyStore Test Suite" verbose="1">
+	<listeners>
+			<listener class-name="com.DC.API.base.ExtentReportListener" />
+		</listeners>
+
+	<test name="DC API automation Tests">
+		<classes>
+			<class name="com.DC.API.Tests.CreateUserTest"></class> 
+		
+			
+		</classes>
+	</test>
+</suite>
